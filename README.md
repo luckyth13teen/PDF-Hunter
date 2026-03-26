@@ -5,7 +5,7 @@ Baseline PDF hunter for scouring your site to flag for ADA complaince.
 README:
 -------
 Tool: Local WordPress PDF Link Scanner
-Purpose: Scans a local WordPress site's sitemap recursively to find pages referencing PDF files.
+Purpose: Scans a local WordPress (not limited to) site's sitemap recursively to find pages referencing PDF files.
          It excludes raw upload paths (/wp-content/) and sitemap files, focusing on content pages.
          Designed for local environments with self-signed SSL certificates.
 
