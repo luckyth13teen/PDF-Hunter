@@ -9,6 +9,8 @@ Purpose: Scans a local WordPress site's sitemap recursively to find pages refere
          It excludes raw upload paths (/wp-content/) and sitemap files, focusing on content pages.
          Designed for local environments with self-signed SSL certificates.
 
+PDF_hunter_live.py should not be used as is, read the comment at start of file before use.
+
 Dependencies:
 -------------
 1. Python 3.x
