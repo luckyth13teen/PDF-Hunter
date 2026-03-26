@@ -9,8 +9,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ================= CONFIGURATION =================
 BASE_URL = "https://websitehere.local"  
-START_SITEMAP = f"{BASE_URL}/sitemap_index.xml"
-OUTPUT_FILE = "pages_with_pdfs.txt"
+START_SITEMAP = f"{BASE_URL}/sitemap_index.xml" #this is the YOAST default, change to whatever you need it to be
+OUTPUT_FILE = "pages_with_pdfs.txt"  #outputs to current directory
 TIMEOUT = 30
 VERBOSE = True
 # =================================================
